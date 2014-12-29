@@ -1,4 +1,4 @@
-Galen is the best. Not Elena.
+Elena and Galen are the best.
 
 ernieerickson
 =============
