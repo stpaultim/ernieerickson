@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the My first feature feature.
+ */
+
+include_once 'movin_up1234.features.inc';

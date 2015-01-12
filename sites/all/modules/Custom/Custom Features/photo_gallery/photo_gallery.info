@@ -1,0 +1,15 @@
+name = Photo-Gallery
+description = Unfinished photo gallery
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = photo_gallery
+dependencies[] = features
+dependencies[] = image
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = field_description
+features[field_base][] = field_photos
+features[field_instance][] = node-photo_gallery-field_description
+features[field_instance][] = node-photo_gallery-field_photos
+features[node][] = photo_gallery
