@@ -18,7 +18,7 @@ function photo_gallery_field_default_field_instances() {
     'description' => 'I gave you 2000 words to describe you\'re photo gallery. Write out a story from the trip or just give write something about who was with you and what you did. This can be increased with a short call to your site administrators.',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
@@ -54,10 +54,10 @@ function photo_gallery_field_default_field_instances() {
   $field_instances['node-photo_gallery-field_photos'] = array(
     'bundle' => 'photo_gallery',
     'deleted' => 0,
-    'description' => '',
+    'description' => 'All of your photos!',
     'display' => array(
       'default' => array(
-        'label' => 'above',
+        'label' => 'hidden',
         'module' => 'image',
         'settings' => array(
           'image_link' => '',
@@ -80,7 +80,7 @@ function photo_gallery_field_default_field_instances() {
     'settings' => array(
       'alt_field' => 0,
       'default_image' => 0,
-      'file_directory' => '',
+      'file_directory' => 'Photos',
       'file_extensions' => 'png gif jpg jpeg',
       'max_filesize' => '',
       'max_resolution' => '',
@@ -92,7 +92,7 @@ function photo_gallery_field_default_field_instances() {
       'active' => 1,
       'module' => 'image',
       'settings' => array(
-        'preview_image_style' => 'thumbnail',
+        'preview_image_style' => 'preview',
         'progress_indicator' => 'throbber',
       ),
       'type' => 'image_image',
@@ -102,6 +102,7 @@ function photo_gallery_field_default_field_instances() {
 
   // Translatables
   // Included for use with string extractors like potx.
+  t('All of your photos!');
   t('Description');
   t('I gave you 2000 words to describe you\'re photo gallery. Write out a story from the trip or just give write something about who was with you and what you did. This can be increased with a short call to your site administrators.');
   t('Photos');
