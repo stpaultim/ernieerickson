@@ -1,0 +1,6 @@
+name = My sub-theme
+description = This is a sub-theme of theme Bartik, made by Galen for the web site ernie-erickson.com
+core = 7.x
+base theme = zurb_foundation
+
+stylesheets[all][] = my_styles.css
